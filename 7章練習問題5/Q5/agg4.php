@@ -53,8 +53,8 @@ try {
 			foreach($data as $value):
 ?>
 				<tr>
-					<td><?php echo $value['gender'] ?></td>
-					<td><?php echo $value['prefecture'] ?></td>
+					<td><?php echo htmlspecialchars($value['gender'],ENT_QUOTES,'utf-8') ?></td>
+					<td><?php echo htmlspecialchars($value['prefecture'],ENT_QUOTES,'utf-8') ?></td>
 					<td><?php echo $value['count'] ?>人</td>
 					<td><?php echo $value['avg_age'] ?>歳</td>
 					<td><?php echo $value['avg_height'] ?>cm</td>
