@@ -1,0 +1,28 @@
+
+h1 {
+  border-bottom: 2px solid #000000;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid #000000;
+  letter-spacing: 1px;
+}
+
+td, th {
+  border: 1px solid #333333;
+  padding: 10px 10px;
+}
+
+th {
+  background-color: #bbbbbb;
+  font-size: 120%;
+}
+
+tr:nth-child(even) td {
+  background-color: #eeeeee;
+}
+
+tr:nth-child(odd) td {
+  background-color: #dddddd;
+}
